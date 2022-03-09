@@ -16,11 +16,7 @@
 # Add a feed source
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
-echo 'src-git kenzo https://github.com/kenzok8/openwrt-packages' >>feeds.conf.default
-echo 'src-git small https://github.com/kenzok8/small' >>feeds.conf.default
+
 git clone https://github.com/CHN-beta/xmurp-ua.git package/xmurp-ua
 git clone https://github.com/chenhaowen01/gdut-drcom-for-openwrt.git package/gdut-drcom
-git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
-git clone https://github.com/xiaorouji/openwrt-passwall.git package/passwall
-gti clone https://github.com/kenzok8/small.git package/small
-git clone https://github.com/kenzok8/openwrt-packages.git package/openwrt-package
+
